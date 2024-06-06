@@ -30,5 +30,18 @@ int main()
 
     if(friends_gender == 'm') std::cout<< "if you see " << first_name << " ask him to call me \n"; //if male
     if(friends_gender == 'f') std::cout << "if you see " << first_name << " ask her to call me\n"; //if female
+
+    //prompt the user to enter age
+    int age = 0;
+
+    std::cout << "what is your age \n";
+    std::cin >> age;
+    
+    if(age < 0 || age >= 110) throw("you are kidding me! \n");
+    if (age <= 12) std::cout << "Next year you will be " << age + 1;
+    if (age == 17) std::cout << "Next year you will be able to vote \n";
+    if (age >= 70) std::cout << "I hope you are enjoying retirement \n";
+
+    std::cout << "warm regards";
     
 }
