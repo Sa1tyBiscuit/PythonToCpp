@@ -38,10 +38,10 @@ int main()
     std::cin >> age;
     
     if(age < 0 || age >= 110) throw("you are kidding me! \n");
-    if (age <= 12) std::cout << "Next year you will be " << age + 1;
+    if (age <= 12) std::cout << "Next year you will be " << ++age;
     if (age == 17) std::cout << "Next year you will be able to vote \n";
     if (age >= 70) std::cout << "I hope you are enjoying retirement \n";
 
-    std::cout << "warm regards";
+    std::cout << "\n warm regards";
     
 }
