@@ -16,6 +16,7 @@ compile -o <output_filename> <filename>.cpp
 int main()
 {
     std::cout << "Hello World! \n"; // << is the output operator
+    std::cout << "Here we go again! \n";
     return 0; // semicolons tell the compiler where statements begin/end
 }
 
