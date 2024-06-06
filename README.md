@@ -1,2 +1,2 @@
 # PythonToCpp
-A journal to learn cpp from a python user
+A journal of my journey to learn cpp from a python user
