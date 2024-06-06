@@ -1,5 +1,7 @@
 # PythonToCpp
-A journal of my journey to learn cpp from a python user \n
+## A journal of my journey to learn cpp from a python user 
+
+---
 
 Day 1: 
 we learn how to use std cpp library to print out hello world
